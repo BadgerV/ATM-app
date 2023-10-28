@@ -1,0 +1,14 @@
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\bin\Debug\net7.0\NewAtmApp.exe
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\bin\Debug\net7.0\NewAtmApp.deps.json
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\bin\Debug\net7.0\NewAtmApp.runtimeconfig.json
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\bin\Debug\net7.0\NewAtmApp.dll
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\bin\Debug\net7.0\NewAtmApp.pdb
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.AssemblyInfo.cs
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.dll
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\refint\NewAtmApp.dll
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.pdb
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\NewAtmApp.genruntimeconfig.cache
+C:\Users\Dell\Desktop\CsharpProject\NewAtmApp\obj\Debug\net7.0\ref\NewAtmApp.dll
