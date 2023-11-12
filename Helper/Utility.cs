@@ -9,7 +9,9 @@ namespace NewAtmApp.Helper
 {
     public static class Utility
     {
-        public static void PrintMessage(string msg, bool success )
+
+        public static int id;
+        public static void PrintMessage(string msg, bool success)
         {
             Console.ForegroundColor = success ? ConsoleColor.Green : ConsoleColor.Red;
             Console.WriteLine(msg);
@@ -21,11 +23,16 @@ namespace NewAtmApp.Helper
         {
             for (int i = 0; i < timer; i++)
             {
-                Console.Write(".");
-                Thread.Sleep(500);
+                Console.Write(" . ");
+                Thread.Sleep(50);
             }
 
             Console.Clear();
+        }
+
+        public static int GenerateId()
+        {
+            return ++id;
         }
 
         public static void PressEnterToContinue()
@@ -37,7 +44,7 @@ namespace NewAtmApp.Helper
 
         public static string GetUserInput(string prompt)
         {
-            Console.WriteLine($"Enter {prompt}");
+            Console.WriteLine($"{prompt}");
             return Console.ReadLine()!;
         }
 
@@ -75,19 +82,14 @@ namespace NewAtmApp.Helper
             }
             return default!;
         }
-
-
         public static string GeneratecaredNumber()
         {
             return GenerateRandomNumbers(16);
         }
-
         public static string CreateAccountNumber()
         {
             return GenerateRandomNumbers(10);
         }
-
-
         private static string GenerateRandomNumbers(int length)
         {
 
@@ -102,8 +104,5 @@ namespace NewAtmApp.Helper
 
             return randomNumber.ToString();
         }
-
-
-
     }
 }

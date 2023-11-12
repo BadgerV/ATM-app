@@ -4,8 +4,8 @@ namespace NewAtmApp.Domain.Entities
     {
         public int id { get; set; }
 
-        public DateOnly CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
-        public DateOnly ModifiedAty { get; set; }
+        public DateTime ModifiedAty { get; set; }
     }
 }

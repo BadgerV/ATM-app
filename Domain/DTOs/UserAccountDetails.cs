@@ -8,9 +8,11 @@ namespace NewAtmApp.Domain.DTOs
 {
     public class UserAccountDetails
     {
-        public string Fullname { get; set; } = default!;
+        public int id { get; set; }
+        public string FullName { get; set; } = default!;
         public string AccountNumber { get; set; } = default!;
-        public string CardNumber {get; set;} = default!;
+        public decimal AccountBalance { get; set; }
+        public string CardNumber { get; set; } = default!;
         public GenderType Gender { get; set; }
         public AccountType AccountType { get; set; }
     }
